@@ -30,7 +30,7 @@ class CouponRow extends StatelessWidget {
           style: Theme.of(context)
               .textTheme
               .bodyText2!
-              .copyWith(fontSize: !Responsive.isMobile(context) ? 4.sp : 10.sp),
+              .copyWith(fontSize: !Responsive.isMobile(context) ? 4.sp : 8.sp),
         ),
         SizedBox(
           width: !Responsive.isMobile(context) ? 2.w : 0.1.w,
