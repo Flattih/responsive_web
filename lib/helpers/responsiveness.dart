@@ -14,7 +14,7 @@ class Responsive extends StatelessWidget {
 
 // This size work fine on my design, maybe you need some customization depends on your design
 
-  // This isMobile, isTablet, isDesktop helep us later
+
   static bool isMobile(BuildContext context) =>
       MediaQuery.of(context).size.width < 750;
 
@@ -32,7 +32,7 @@ class Responsive extends StatelessWidget {
     if (_size.width >= 1100) {
       return desktop;
     }
-    // If width it less then 1100 and more then 850 we consider it as tablet
+   
     else if (_size.width >= 850 && tablet != null) {
       return tablet!;
     }
